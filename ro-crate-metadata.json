@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "hasPart": [
+                "batch1_test_LC_Sample1.fastq",
+                "batch1_test_LC_Sample2.fastq",
+                "batch1_test_LC_Sample3.fastq",
+                "batch2_test_LC_Sample4.fastq",
+                "batch2_test_LC_Sample5.fastq"
+            ],
+            "description": "RO-Crate for the given dataset"
+        },
+        {
+            "@id": "batch1_test_LC_Sample1.fastq",
+            "@type": "File",
+            "contentSize": "15KB",
+            "encodingFormat": "application/octet-stream",
+            "identifier": {
+                "patient_id": "ICGC_0425",
+                "sample_id": "LC_Sample1"
+            },
+            "path": "./raw_data/batch1_test_LC_Sample1.fastq"
+        },
+        {
+            "@id": "batch1_test_LC_Sample2.fastq",
+            "@type": "File",
+            "contentSize": "17KB",
+            "encodingFormat": "application/octet-stream",
+            "identifier": {
+                "patient_id": "ICGC_0428",
+                "sample_id": "LC_Sample2"
+            },
+            "path": "./raw_data/batch1_test_LC_Sample2.fastq"
+        },
+        {
+            "@id": "batch1_test_LC_Sample3.fastq",
+            "@type": "File",
+            "contentSize": "14KB",
+            "encodingFormat": "application/octet-stream",
+            "identifier": {
+                "patient_id": "ICGC_0432",
+                "sample_id": "LC_Sample3"
+            },
+            "path": "./raw_data/batch1_test_LC_Sample3.fastq"
+        },
+        {
+            "@id": "batch2_test_LC_Sample4.fastq",
+            "@type": "File",
+            "contentSize": "21KB",
+            "encodingFormat": "application/octet-stream",
+            "identifier": {
+                "patient_id": "ICGC_0433",
+                "sample_id": "LC_Sample4"
+            },
+            "path": "./raw_data/batch1_test_LC_Sample4.fastq"
+        },
+        {
+            "@id": "batch2_test_LC_Sample5.fastq",
+            "@type": "File",
+            "contentSize": "20KB",
+            "encodingFormat": "application/octet-stream",
+            "identifier": {
+                "patient_id": "ICGC_0440",
+                "sample_id": "LC_Sample5"
+            },
+            "path": "./raw_data/batch1_test_LC_Sample5.fastq"
+        }
+    ]
+}
